@@ -1,0 +1,16 @@
+{
+    "id": "6e990216-7000-426f-aca5-ecc50c2f32de",
+    "version": "1.0.0",
+    "platform": "all",
+    "arch": "all",
+    "name": "Eagle-ObsidianBridge",
+    "logo": "/logo.png",
+    "keywords": [],
+    "devTools": false,
+    "main": {
+        "serviceMode": true,
+        "url": "index.html",
+        "width": 1,
+        "height": 1
+    }
+}
