@@ -1,5 +1,5 @@
 # Eagle-Obsidianbridge
-Use with plugin Eagle-ObsidianBridge to realize faster search based on eagle file id jump to obsidian.
+Use with plugin [Obsidian-EagleBridge](https://github.com/zyjGraphein/Obsidian-EagleBridge) to realize faster search based on eagle file id jump to obsidian.
 
 [![GitHub stars](https://img.shields.io/github/stars/zyjGraphein/Eagle-Obsidianbridge?style=flat&label=Stars)](https://github.com/zyjGraphein/Eagle-Obsidianbridge/stargazers)
 [![Total Downloads](https://img.shields.io/github/downloads/zyjGraphein/Eagle-ObsidianBridge/total?style=flat&label=Total%20Downloads)](https://github.com/zyjGraphein/Eagle-ObsidianBridge/releases)
