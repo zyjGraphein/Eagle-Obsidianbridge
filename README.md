@@ -14,13 +14,22 @@ Go to [Eagle-Obsidianbridge/releases](https://github.com/zyjGraphein/Eagle-Obsid
 ## Usage
 Run the plugin on the image email to enable retrieving the ID of the image in obsidian.
 The configuration page is shown in the figure. 
-<img src="assets/page.png" width="800">
-Click on '➕' to add a repository address, 
-Click on '❌' to exit the plugin, 
-Click on '🗑️' to delete a repository address, and 
-Click on '➡️' to jump to obsidian for searching.
-Enter the name of the repository in "obsidian vault name".
-Enter the warehouse id in "obsidian vault id" (you need to find your warehouse id in obsidian).
+
+
+Click on '➕' to add a repository address
+
+Click on '❌' to exit the plugin
+
+Click on '🗑️' to delete a repository address
+
+Click on '➡️' to jump to obsidian for searching
+
+Enter the name of the repository in "obsidian vault name"
+
+Enter the warehouse id in "obsidian vault id" (you need to find your warehouse id in obsidian)
+
+<img src="assets/page.png" width="600">
+
 ## Note
 This plugin is designed for use with [Eagle](https://en.eagle.cool) and should be installed within the Eagle app.  
 It works in conjunction with the [Obsidian-EagleBridge](https://github.com/zyjGraphein/Obsidian-EagleBridge) plugin on [Obsidian](https://obsidian.md/).
