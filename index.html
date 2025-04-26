@@ -3,10 +3,51 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <script type="text/javascript" src="js/plugin.js"></script>  <!-- 加载插件逻辑 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f9;
+    }
+    #vaults-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .vault-entry {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    input[type="text"] {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      flex: 1;
+    }
+    button {
+      padding: 5px 10px;
+      background-color: #c3ddfa44;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #acd3fd;
+    }
+  </style>
+  <script type="text/javascript" src="js/plugin.js"></script>
 </head>
 <body>
-  <div style="display:none;"></div> <!-- 完全隐藏内容 -->
+  <div id="vaults-container">
+    <!-- 动态添加的仓库地址输入框和按钮 -->
+  </div>
+  <button id="add-vault">添加仓库</button>
 </body>
 </html>

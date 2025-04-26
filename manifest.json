@@ -10,7 +10,8 @@
     "main": {
         "serviceMode": true,
         "url": "index.html",
-        "width": 1,
-        "height": 1
+        "frame": false,
+        "width": 600,
+        "minheight": 300
     }
 }
